@@ -5,6 +5,8 @@
  */
 package com.mycompany.variable;
 
+import java.util.Scanner;
+
 /**
  *
  * @author reate
@@ -22,5 +24,28 @@ public class ejercicio4 {
         // variable boleana
         var boleana = true;
         System.out.println("esto es  = " + boleana );
+        
+        //variable tabular
+        var palabraSaludar ="hola pool";
+        var palabraDespedir="chau pool";
+        System.out.println(palabraSaludar+"\t"+palabraDespedir);
+        //caracteres comillas dobles
+        var nombre = "juan";
+        var apellido = "flores";
+        System.out.println("nombre: \t" + "apellido");
+        // caracter   comilla simples
+        System.out.println("\'"+nombre + "\t" + "\t" + apellido + "\'");
+        
+        System.out.println("Nombre:\r  " + nombre);
+        
+        //scanner basico
+        Scanner insertar = new Scanner(System.in);
+           System.out.println("Escriba nombre de usuario");
+           var usuario = insertar.nextLine();
+           System.out.println("Usuario: " + usuario);
+        // suma simple en var
+           var i = 5;
+           var j = 3;
+           System.out.println(i + j + "La Suma es:");
     }
 }
